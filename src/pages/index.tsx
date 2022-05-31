@@ -4,6 +4,7 @@ import styles from '../../styles/Home.module.css'
 
 export default function Home({ title = 'React Avançado!' }) {
   const bla = 'foo'
+  const bla2 = 'foo'
   return (
     <div className={styles.container}>
       <Head>
