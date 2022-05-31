@@ -7,12 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint src --warnings=0",
-    "postinstall": "husk install"
-  },
-  "lint-staged": {
-    "src/**/*": [
-      "yarn lint--fix"
-    ]
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "12.1.6",
@@ -31,7 +26,6 @@
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
     "husky": "^8.0.1",
-    "lint-staged": "^12.4.3",
     "typescript": "^4.7.2"
   }
 }
